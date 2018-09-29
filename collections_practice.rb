@@ -60,7 +60,8 @@ def add_s(array)
       if index < 2 
         word = word + "s"
       end
+      return_array << word 
   end
       
-      return_array << word 
+      
 end
