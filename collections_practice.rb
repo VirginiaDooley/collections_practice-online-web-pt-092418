@@ -55,6 +55,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array[1, -1].each_index {|element| "s" + element} 
+  array[1].each_index {|element| "s" + element} 
   end
 end
