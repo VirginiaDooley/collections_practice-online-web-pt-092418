@@ -57,7 +57,7 @@ end
 def add_s(array)
   return_array = []
     array.each_with_index do |word,index|
-      if index = 1 
+      if index < 2 
         word = word + "s"
       end
       return_array << word 
