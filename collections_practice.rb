@@ -57,6 +57,5 @@ end
 
 def add_s(array)
   new_array = array.each_with_index { |element, index| element + ('s')  } if index <=> 1 
-  end
   new_array 
 end
