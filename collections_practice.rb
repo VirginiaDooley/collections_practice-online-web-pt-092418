@@ -60,6 +60,5 @@ def add_s(array)
       puts #{element} + ("s") 
     else
       puts element
-    end
   end
 end
