@@ -48,7 +48,6 @@ end
 
 def find_a(array)
   array.select { |word| word.start_with?('a') }
-  puts array
 end
 
 def sum_array(array)
@@ -56,7 +55,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new_array = array.each_with_index { |element, index| element + ('s')  } if index <=> 1
+  # new_array = array.each_with_index { |element, index| element + ('s')  } if index <=> 1
   end
   new_array 
 end
