@@ -56,4 +56,5 @@ end
 
 def add_s(array)
   array.select {|element|"s" + element} 
+  end
 end
