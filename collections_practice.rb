@@ -57,7 +57,7 @@ end
 def add_s(array)
   array.each_with_index(1) do |element, index| 
     if index < 2
-      puts #{element} + ("s") 
+      puts "(#{element}) + ("s")"
     else
       puts element
   end
