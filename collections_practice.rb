@@ -51,7 +51,9 @@ def find_a(array)
 end
 
 def sum_array(array)
-  (array).inject {|sum, i| sum + i }
+  # (array).inject {|sum, i| sum + i }
+  array.inject do |sum, number| 
+        sum + number
 end
 
 def add_s(array)
