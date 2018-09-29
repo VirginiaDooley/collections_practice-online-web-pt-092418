@@ -55,11 +55,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  s = "s" 
-  array.each_with_index(1) do |element, index| 
-    if index < 2
-      puts "#{element} + #{s}"
-    else
-      puts element
+  array(:each_with_index).collect do |item, index| 
   end
 end
