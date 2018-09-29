@@ -55,5 +55,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  (array).collect {|element, index| puts element + "s" }
+  array.select {|element|"s" + element} 
 end
